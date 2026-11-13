@@ -5,13 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mohammad Taan Al Akoum | AI & ML Engineer</title>
 <script>try{var s=localStorage.getItem("theme");if(s)document.documentElement.setAttribute("data-theme",s)}catch(e){}document.documentElement.classList.add("js")</script>
-<meta name="description" content="AI and machine learning engineer, MSc AI at CentraleSupélec: multimodal deep learning, LLM retrieval agents, robotics and industrial AI, shipped as tested code. Looking for a 6-month internship from April/May 2027.">
+<meta name="description" content="AI and machine learning engineer, MSc AI at CentraleSupélec: multimodal deep learning for predictive maintenance, a production-grade agentic RAG platform, remaining-useful-life prediction and robotics, shipped as tested code. Looking for a 6-month internship from April/May 2027.">
 <meta name="author" content="Mohammad Taan Al Akoum">
 <meta name="theme-color" content="#F6F8F7">
 <link rel="canonical" href="https://taanakoum.github.io/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Mohammad Taan Al Akoum | AI & ML Engineer">
-<meta property="og:description" content="Multimodal deep learning, LLM retrieval agents, autonomous robots and industrial AI, built and tested end to end. Seeking a 6-month internship from April/May 2027.">
+<meta property="og:description" content="Multimodal deep learning, a production-grade agentic RAG platform, remaining-useful-life prediction and autonomous robots, built and tested end to end. Seeking a 6-month internship from April/May 2027.">
 <meta property="og:url" content="https://taanakoum.github.io/">
 <meta property="og:image" content="https://taanakoum.github.io/assets/og.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -33,11 +33,11 @@
     <a class="brand" href="#top">Mohammad Taan Al Akoum</a>
     <nav aria-label="Sections" id="menu">
       <a href="#bring">Focus</a>
-      <a href="#how">How I work</a>
+      <a href="#rag">LLM / RAG</a>
       <a href="#research">Research</a>
       <a href="#omnifuser">Reproduction</a>
+      <a href="#rul">RUL</a>
       <a href="#walker">Robotics</a>
-      <a href="#rag">LLM / RAG</a>
       <a href="#experience">Experience</a>
       <a href="#skills">Skills</a>
     </nav>
@@ -60,7 +60,7 @@
       <p class="hero-role">AI &amp; machine learning engineer, MSc AI at CentraleSupélec</p>
       <h1><span class="h1-l">Mohammad</span> <span class="h1-l">Taan Al Akoum</span></h1>
       <p class="hero-claim">I build AI that<br><span class="rot" aria-live="polite"><span class="rot-w is-on">reads machines.</span><span class="rot-w">finds the right answer.</span><span class="rot-w">drives itself.</span><span class="rot-w">knows when it’s unsure.</span></span></p>
-      <p class="hero-lede">A mechatronics engineer turned AI researcher. I work across multimodal deep learning, LLM retrieval agents and robotics, with a soft spot for industrial data, and I ship models as tested, reproducible code that holds up outside the notebook.</p>
+      <p class="hero-lede">A mechatronics engineer turned AI researcher. I build multimodal models for predictive maintenance, production LLM systems whose answers can be checked, and robots, and I ship them as tested, reproducible code that holds up outside the notebook.</p>
       <div class="cta">
         <a class="btn btn-main" href="assets/Mohammad_Taan_Al_Akoum_CV.pdf" download>Download CV</a>
         <a class="btn" href="#work">See my work</a>
@@ -95,11 +95,11 @@
   <div class="wrap">
     <h2 id="sheet-h" class="h-small">In numbers</h2>
     <dl class="spec">
-      <div><dt>Research papers surveyed and compared</dt><dd><span data-count="15" data-suf="+">15+</span><small>five candidate architectures scored</small></dd></div>
+      <div><dt>Automated tests, agentic RAG platform</dt><dd><span data-count="1193">1,193</span><small>93% coverage, on real PostgreSQL, Redis and Qdrant</small></dd></div>
       <div><dt>Automated tests, research pipeline</dt><dd><span data-count="512">512</span><small>passing, 88% coverage in fresh-env CI</small></dd></div>
-      <div><dt>GPU training runs</dt><dd><span data-count="51">51</span><small>on NVIDIA A100, Ruche cluster (SLURM)</small></dd></div>
+      <div><dt>GPU training runs</dt><dd><span data-count="80" data-suf="+">80+</span><small>on NVIDIA A100, Ruche cluster (SLURM)</small></dd></div>
       <div><dt>Paper claims audited against code</dt><dd><span data-count="35">35</span><small>items, OmniFuser (arXiv 2025)</small></dd></div>
-      <div><dt>Public datasets registered</dt><dd><span data-count="8">8</span><small>bearings and milling; 3 locked as unseen targets</small></dd></div>
+      <div><dt>Real-document questions, browser test</dt><dd><span data-count="6" data-suf=" / 6">6 / 6</span><small>correct, with server-verified page citations</small></dd></div>
       <div><dt>Autonomous robot, built end to end</dt><dd><span data-count="500" data-suf=" USD">500 USD</span><small>&gt;90% indoor navigation success</small></dd></div>
     </dl>
   </div>
@@ -113,14 +113,14 @@
       <a class="cap" href="#research">
         <svg class="cap-i" viewBox="0 0 48 48" aria-hidden="true"><path d="M4 30 L12 30 L16 14 L22 38 L28 10 L32 30 L44 30"/></svg>
         <h3>Multimodal and industrial AI</h3>
-        <p>Fusing signals, images and text with frozen foundation models; calibrated uncertainty, explainability and leakage-free evaluation.</p>
-        <span class="cap-proof">Predictive maintenance research, OmniFuser</span>
+        <p>Fusing signals, images and text with frozen foundation models; remaining-life forecasts with intervals; leakage-free evaluation.</p>
+        <span class="cap-proof">Predictive maintenance, OmniFuser, RUL-Fuse</span>
       </a>
       <a class="cap" href="#rag">
         <svg class="cap-i" viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="8" width="26" height="6" rx="3"/><rect x="6" y="20" width="36" height="6" rx="3"/><rect x="6" y="32" width="20" height="6" rx="3"/></svg>
-        <h3>LLMs and retrieval</h3>
-        <p>Agents with memory and tools, hybrid search with reranking, and an evaluation suite that puts a number on every design choice.</p>
-        <span class="cap-proof">Agentic RAG with memory</span>
+        <h3>Production LLM systems</h3>
+        <p>A multi-user RAG platform: LangGraph agent, hybrid search with reranking, citations checked by the server, measured on real documents.</p>
+        <span class="cap-proof">Agentic RAG platform</span>
       </a>
       <a class="cap" href="#walker">
         <svg class="cap-i" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="6"/><path d="M24 6 A18 18 0 0 1 42 24"/><path d="M24 12 A12 12 0 0 1 36 24"/></svg>
@@ -131,8 +131,8 @@
       <a class="cap" href="#numbers">
         <svg class="cap-i" viewBox="0 0 48 48" aria-hidden="true"><path d="M10 26 L19 35 L38 14"/></svg>
         <h3>ML engineering</h3>
-        <p>Tests, CI, type checks and resumable GPU-cluster jobs, so a colleague can rerun any result and get the same answer.</p>
-        <span class="cap-proof">512 tests, 51 A100 runs</span>
+        <p>Tests, CI, type checks, real-browser end-to-end runs and resumable GPU-cluster jobs, so a colleague can rerun any result.</p>
+        <span class="cap-proof">1,700+ tests, 80+ A100 runs</span>
       </a>
     </div>
   </div>
@@ -144,13 +144,98 @@
     <p class="lead narrow">The skills that carry over to any team, whatever the stack. Each one comes with where I have used it.</p>
     <div class="soft">
       <div class="sk"><h3>Framing the problem</h3><p>I turn a vague goal into measurable objectives and a definition of done before writing code.</p><span>Three research goals; walker objectives set from user needs</span></div>
-      <div class="sk"><h3>Rigour and critical thinking</h3><p>I compare against simple baselines, test for leakage and question results that look too good, including published ones.</p><span>35-item paper audit; duplicate and shortcut findings</span></div>
-      <div class="sk"><h3>Planning and risk</h3><p>I break work into stages with decision gates and a fallback, so one failed idea cannot sink a project.</p><span>8-stage research plan; 24 gaps closed before running</span></div>
+      <div class="sk"><h3>Rigour and critical thinking</h3><p>I compare against simple baselines, test for leakage and question results that look too good, including published ones.</p><span>35-item paper audit; leakage probe ruled out 2 photo types</span></div>
+      <div class="sk"><h3>Planning and risk</h3><p>I break work into stages with decision gates and a fallback, so one failed idea cannot sink a project.</p><span>Decision gates; test set sealed until the design freeze</span></div>
       <div class="sk"><h3>Clear communication</h3><p>I write documentation people can follow and explain technical results to both specialists and non-specialists.</p><span>Project logs, runbooks and reports; jury presentations</span></div>
       <div class="sk"><h3>Working across disciplines</h3><p>I speak the language of operators, technicians and ML engineers, and translate between them.</p><span>Cement plant control room; BMW and Renault workshop</span></div>
       <div class="sk"><h3>Ownership and fast learning</h3><p>I take a system from idea to working result and pick up new tools quickly when the job needs them.</p><span>Walker built from frame to software; new stacks per project</span></div>
     </div>
     <p class="note">Languages: English C2 (IELTS), Arabic native, French A2 and working towards B2.</p>
+  </div>
+</section>
+
+<section class="sec sec-alt" id="rag" aria-labelledby="rag-h">
+  <div class="wrap">
+    <p class="kicker">Production LLM project, built solo, autumn 2026</p>
+    <h2 id="rag-h">An agentic RAG platform whose answers you can check</h2>
+    <div class="cols">
+      <p class="lead">A multi-user web platform: people upload their own PDFs and Word files and ask questions about them. A LangGraph agent searches, answers and cites its sources. The server checks every citation against the passages it actually retrieved, and one user can never see another user’s data.</p>
+      <ul class="why">
+        <li><b>Answers with proof.</b> Every citation names the document, page and exact excerpt. If no citation can be verified, the answer is a refusal, never a guess.</li>
+        <li><b>Built like a product.</b> FastAPI, PostgreSQL, Qdrant, Redis/Celery and Streamlit, with background ingestion, retries and live progress.</li>
+        <li><b>Runs on a laptop.</b> A free hosted model through any OpenAI-compatible endpoint; no GPU and no paid service.</li>
+      </ul>
+    </div>
+
+    <div class="shots">
+      <figure class="shot"><div class="shot-bar" aria-hidden="true"><i></i><i></i><i></i></div><a href="assets/rag-answer.png" target="_blank" rel="noopener" aria-label="Open the screenshot full size"><img src="assets/rag-answer.png" alt="Screenshot of the platform: a question about the NIST password standard, the answer with citation [1], and the Sources panel showing the verified excerpt from page 24." width="1360" height="900" loading="lazy"></a><figcaption>A cited answer. The excerpt behind [1] was checked against page 24 of the 80-page NIST standard.</figcaption></figure>
+      <figure class="shot"><div class="shot-bar" aria-hidden="true"><i></i><i></i><i></i></div><a href="assets/rag-documents.png" target="_blank" rel="noopener" aria-label="Open the screenshot full size"><img src="assets/rag-documents.png" alt="Screenshot of the documents page: three real documents ready, 293 passages, with per-document status, page and passage counts." width="1360" height="900" loading="lazy"></a><figcaption>Three real documents processed in the background: 293 searchable passages.</figcaption></figure>
+    </div>
+
+    <h3>How a question and a document flow through the system</h3>
+    <div class="dg-scroll"><svg class="diagram" viewBox="0 0 1060 352" role="img" aria-label="Agentic RAG platform. Answering: a question goes from Streamlit through FastAPI to a LangGraph agent that classifies it, runs hybrid retrieval in Qdrant with reranking, generates structured output with the language model, verifies every citation and streams the answer; a failed check triggers a bounded repair. Ingesting: an upload is validated, recorded with an outbox row in PostgreSQL, picked up by an idempotent Celery worker, parsed by Docling in a sandbox, chunked and embedded, and indexed in Qdrant with the owner on every point." xmlns="http://www.w3.org/2000/svg"><defs><marker id="ahr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="ah"/></marker></defs>
+<g class="nd" style="--i:0.1"><text class="ch" x="10" y="22">Answer a question</text></g>
+<g class="nd" style="--i:0.1"><rect class="bx" x="10" y="40" width="148" height="80" rx="8"/><text class="tt" x="84" y="76" text-anchor="middle">Question</text><text class="ts" x="84" y="93" text-anchor="middle">Streamlit → FastAPI</text></g>
+<g class="nd" style="--i:1.0"><rect class="bx bx-t" x="188" y="40" width="148" height="80" rx="8"/><text class="tt" x="262" y="76" text-anchor="middle">Classify</text><text class="ts" x="262" y="93" text-anchor="middle">chat, clarify or search</text></g>
+<g class="nd" style="--i:1.9"><rect class="bx bx-t" x="366" y="40" width="148" height="80" rx="8"/><text class="tt" x="440" y="68.5" text-anchor="middle">Hybrid retrieval</text><text class="ts" x="440" y="85.5" text-anchor="middle">dense + BM25, RRF</text><text class="ts" x="440" y="100.5" text-anchor="middle">cross-encoder rerank</text></g>
+<g class="nd" style="--i:2.8"><rect class="bx bx-t" x="544" y="40" width="148" height="80" rx="8"/><text class="tt" x="618" y="68.5" text-anchor="middle">Generate</text><text class="ts" x="618" y="85.5" text-anchor="middle">structured JSON</text><text class="ts" x="618" y="100.5" text-anchor="middle">free hosted LLM</text></g>
+<g class="nd" style="--i:3.7"><rect class="bx bx-t" x="722" y="40" width="148" height="80" rx="8"/><text class="tt" x="796" y="68.5" text-anchor="middle">Verify citations</text><text class="ts" x="796" y="85.5" text-anchor="middle">against this turn’s</text><text class="ts" x="796" y="100.5" text-anchor="middle">retrieved passages</text></g>
+<g class="nd" style="--i:4.6"><rect class="bx bx-o" x="900" y="40" width="148" height="80" rx="8"/><text class="tt" x="974" y="68.5" text-anchor="middle">Answer</text><text class="ts" x="974" y="85.5" text-anchor="middle">streamed over SSE</text><text class="ts" x="974" y="100.5" text-anchor="middle">page + excerpt</text></g>
+<g class="ed" style="--i:1.1"><path class="ar" pathLength="1" d="M158,80 L186,80" marker-end="url(#ahr)"/></g>
+<g class="ed" style="--i:2.0"><path class="ar" pathLength="1" d="M336,80 L364,80" marker-end="url(#ahr)"/></g>
+<g class="ed" style="--i:2.9"><path class="ar" pathLength="1" d="M514,80 L542,80" marker-end="url(#ahr)"/></g>
+<g class="ed" style="--i:3.8"><path class="ar" pathLength="1" d="M692,80 L720,80" marker-end="url(#ahr)"/></g>
+<g class="ed" style="--i:4.7"><path class="ar" pathLength="1" d="M870,80 L898,80" marker-end="url(#ahr)"/></g>
+<g class="ed" style="--i:4.2"><path class="ar" pathLength="1" d="M796,40 L796,30 L618,30 L618,38" marker-end="url(#ahr)"/><text class="lb" x="707" y="24" text-anchor="middle">bounded repair</text></g>
+<g class="nd" style="--i:0.1"><text class="ch" x="10" y="170">Ingest a document</text></g>
+<g class="nd" style="--i:0.3"><rect class="bx" x="10" y="186" width="148" height="80" rx="8"/><text class="tt" x="84" y="214.5" text-anchor="middle">Upload</text><text class="ts" x="84" y="231.5" text-anchor="middle">type from magic bytes</text><text class="ts" x="84" y="246.5" text-anchor="middle">size and page limits</text></g>
+<g class="nd" style="--i:1.2"><rect class="bx bx-t" x="188" y="186" width="148" height="80" rx="8"/><text class="tt" x="262" y="222" text-anchor="middle">Outbox row</text><text class="ts" x="262" y="239" text-anchor="middle">same DB transaction</text></g>
+<g class="nd" style="--i:2.1"><rect class="bx bx-t" x="366" y="186" width="148" height="80" rx="8"/><text class="tt" x="440" y="222" text-anchor="middle">Celery worker</text><text class="ts" x="440" y="239" text-anchor="middle">idempotent, retried</text></g>
+<g class="nd" style="--i:3.0"><rect class="bx bx-t" x="544" y="186" width="148" height="80" rx="8"/><text class="tt" x="618" y="214.5" text-anchor="middle">Docling parse</text><text class="ts" x="618" y="231.5" text-anchor="middle">sandboxed process</text><text class="ts" x="618" y="246.5" text-anchor="middle">OCR only if needed</text></g>
+<g class="nd" style="--i:3.9"><rect class="bx bx-t" x="722" y="186" width="148" height="80" rx="8"/><text class="tt" x="796" y="214.5" text-anchor="middle">Chunk and embed</text><text class="ts" x="796" y="231.5" text-anchor="middle">headings kept</text><text class="ts" x="796" y="246.5" text-anchor="middle">dense + sparse</text></g>
+<g class="nd" style="--i:4.8"><rect class="bx bx-t" x="900" y="186" width="148" height="80" rx="8"/><text class="tt" x="974" y="222" text-anchor="middle">Qdrant index</text><text class="ts" x="974" y="239" text-anchor="middle">owner on every point</text></g>
+<g class="ed" style="--i:1.3"><path class="ar" pathLength="1" d="M158,226 L186,226" marker-end="url(#ahr)"/></g>
+<g class="ed" style="--i:2.2"><path class="ar" pathLength="1" d="M336,226 L364,226" marker-end="url(#ahr)"/></g>
+<g class="ed" style="--i:3.1"><path class="ar" pathLength="1" d="M514,226 L542,226" marker-end="url(#ahr)"/></g>
+<g class="ed" style="--i:4.0"><path class="ar" pathLength="1" d="M692,226 L720,226" marker-end="url(#ahr)"/></g>
+<g class="ed" style="--i:4.9"><path class="ar" pathLength="1" d="M870,226 L898,226" marker-end="url(#ahr)"/></g>
+<g class="ed" style="--i:5.6"><path class="ar" pathLength="1" d="M974,186 L974,148 L440,148 L440,122" marker-end="url(#ahr)"/><text class="lb" x="707" y="142" text-anchor="middle">owner filter on every query</text></g>
+<g class="nd" style="--i:6.0"><rect class="bx bx-c" x="10" y="292" width="1038" height="52" rx="10"/><text class="tt" x="529" y="314" text-anchor="middle">PostgreSQL is the source of truth</text><text class="ts" x="529" y="332" text-anchor="middle">users, documents and their state machine, conversations, LangGraph checkpoints with per-conversation locks · Redis: cache, quotas, broker · one trace from browser to worker</text></g>
+</svg></div>
+    <p class="legend"><span class="lg lg-t"></span>agent and pipeline steps <span class="lg lg-o"></span>what the user sees</p>
+
+    <dl class="results">
+      <div><dt>Automated tests</dt><dd><span data-count="1193">1,193</span></dd></div>
+      <div><dt>Line coverage</dt><dd>93%</dd></div>
+      <div><dt>80-page standard, parsed and indexed</dt><dd>244 s</dd></div>
+      <div><dt>Answer time, laptop CPU</dt><dd>3–7 s</dd></div>
+    </dl>
+
+    <div class="two">
+      <div>
+        <h3>Measured on real documents, not just a demo set</h3>
+        <div class="bars bars-wide" role="img" aria-label="hit at 1 on real public documents: dense 0.61, BM25 0.39, hybrid 0.46, hybrid with cross-encoder rerank 0.64.">
+          <p class="bars-h">hit@1 on real public documents: is the right passage ranked first?</p>
+          <div class="bar-r"><span>Dense</span><div class="trk"><i class="b2" style="width:61%"></i></div><em>0.61</em></div>
+          <div class="bar-r"><span>BM25</span><div class="trk"><i class="b2" style="width:39%"></i></div><em>0.39</em></div>
+          <div class="bar-r"><span>Hybrid (RRF)</span><div class="trk"><i class="b2" style="width:46%"></i></div><em>0.46</em></div>
+          <div class="bar-r"><span>Hybrid + rerank</span><div class="trk"><i style="width:64%"></i></div><em>0.64</em></div>
+        </div>
+        <p class="note">28 hand-written questions on NIST SP 800-63B and “Attention Is All You Need”. The same pipeline scored 0.94 on a synthetic set; I report both. On real text plain fusion is worse than dense search alone, and the cross-encoder is what recovers it.</p>
+      </div>
+      <div>
+        <h3>Engineering that holds up</h3>
+        <ul class="checks">
+          <li><b>Isolation.</b> An owner filter on every vector query and an ownership check on every route; another user’s id returns the same 404 as a missing one.</li>
+          <li><b>Reliability.</b> Transactional outbox, idempotent tasks, a persisted document state machine, and Postgres checkpoints with per-conversation locks and idempotency keys.</li>
+          <li><b>Security.</b> Argon2id, rotating refresh tokens, two-factor login, sandboxed parsers that reject decompression bombs and XXE, and blocking of image links that could leak data.</li>
+          <li><b>Operations.</b> OpenTelemetry traces from request to worker, a quota guard with model fallback, and a Redis answer cache.</li>
+        </ul>
+      </div>
+    </div>
+    <h3>What I learned</h3>
+    <blockquote>A green test suite is not proof. Driving the real app in a browser with an 80-page standard found two bugs that almost 1,200 automated tests had missed: maths letters stored as “𝑁” instead of “N”, and grouped citations like [S1, S2] shown to the user unconverted. Both are fixed, and both now have tests.</blockquote>
+    <p class="note">Stack: Python 3.12, FastAPI, Pydantic, SQLAlchemy (async), LangGraph, Qdrant, FastEmbed (ONNX), Docling, PostgreSQL, Redis, Celery, Streamlit, OpenTelemetry, pytest, Playwright, Ruff, Pyright. Source code available on request.</p>
   </div>
 </section>
 
@@ -286,7 +371,64 @@
   </div>
 </section>
 
-<section class="sec" id="walker" aria-labelledby="walker-h">
+<section class="sec" id="rul" aria-labelledby="rul-h">
+  <div class="wrap">
+    <p class="kicker">MSc research, LGI laboratory, CentraleSupélec, Nov 2026 to present; design freeze 1 December, results mid-December</p>
+    <h2 id="rul-h">RUL-Fuse: how long does this milling tool have left?</h2>
+    <div class="cols">
+      <p class="lead">RUL-Fuse predicts the remaining useful life of a milling tool, in seconds of cutting and with an interval, from cutting forces and photos (Nonastreda: ten tools run from new to dulled). The network is not the hard part. The hard part is defining the target, keeping shortcuts out and beating baselines that are surprisingly strong.</p>
+      <ul class="why">
+        <li><b>A precise target.</b> Failure is the first “dulled” pass confirmed by two of the next three. The horizon is 1,500 s of cutting, with a prediction at every 10 s segment.</li>
+        <li><b>Causal by construction.</b> A photo taken after a pass only feeds later predictions, which removes a look-ahead leak in the published set-up.</li>
+        <li><b>A sealed test set.</b> 10-fold leave-one-tool-out, three seeds. Test numbers stay locked until the design freeze.</li>
+      </ul>
+    </div>
+
+    <div class="two">
+      <div>
+        <h3>Which photos may the model see?</h3>
+        <div class="bars bars-wide bars-lim" role="img" aria-label="Leakage probe, out of 10 tools: true wear 3, force 1, tool photo 3, chip photo 7, workpiece photo 10; the limit is 3.">
+          <p class="bars-h">In how many of 10 tools does the feature’s biggest jump fall on a label boundary? Limit: 3</p>
+          <div class="bar-r"><span>True wear</span><div class="trk"><i class="b2" style="width:30%"></i><b class="lim" aria-hidden="true"></b></div><em>3</em></div>
+          <div class="bar-r"><span>Force</span><div class="trk"><i style="width:10%"></i><b class="lim" aria-hidden="true"></b></div><em>1</em></div>
+          <div class="bar-r"><span>Tool photo</span><div class="trk"><i style="width:30%"></i><b class="lim" aria-hidden="true"></b></div><em>3</em></div>
+          <div class="bar-r"><span>Chip photo</span><div class="trk"><i class="bad" style="width:70%"></i><b class="lim" aria-hidden="true"></b></div><em>7</em></div>
+          <div class="bar-r"><span>Workpiece photo</span><div class="trk"><i class="bad" style="width:100%"></i><b class="lim" aria-hidden="true"></b></div><em>10</em></div>
+        </div>
+        <p class="note">Chip and workpiece photos follow the labelling schedule, not the wear, so they were excluded before any remaining-life result was seen. Tool photos behave like true wear and were kept.</p>
+      </div>
+      <div>
+        <h3>The baseline ladder</h3>
+        <div class="bars bars-wide" role="img" aria-label="Mean absolute error in the last 1,500 seconds, lower is better: constant guess 412 seconds, usage rule 468, mean failure time 513, OmniFuser with a remaining-life head 587.">
+          <p class="bars-h">Error in the final 1,500 s, mean over 10 test tools (s, lower is better)</p>
+          <div class="bar-r"><span>Constant guess*</span><div class="trk"><i class="b2" style="width:68.7%"></i></div><em>412</em></div>
+          <div class="bar-r"><span>Usage rule</span><div class="trk"><i style="width:78%"></i></div><em>468</em></div>
+          <div class="bar-r"><span>Mean failure time</span><div class="trk"><i class="b2" style="width:85.4%"></i></div><em>513</em></div>
+          <div class="bar-r"><span>OmniFuser-RUL</span><div class="trk"><i class="bad" style="width:97.9%"></i></div><em>587</em></div>
+        </div>
+        <p class="note">I gave the published OmniFuser architecture a remaining-life head and trained it on the same folds (30 A100 fits). It over-fitted the eight training tools: training error fell 50-fold while validation barely moved. With ten tools, a simple usage rule is the bar to clear, and every RUL-Fuse decision is judged against it. *Not deployable: it assumes the tool is already in its last 1,500 s.</p>
+      </div>
+    </div>
+
+    <div class="three">
+      <div class="find">
+        <h4>Decisions behind gates</h4>
+        <p>Sensor encoder, fusion family, augmentation and output head are each picked at a gate on validation tools, and recorded before the results that depend on them.</p>
+      </div>
+      <div class="find">
+        <h4>Compute on a budget</h4>
+        <p>SLURM arrays on Ruche A100s with a GPU health probe, cached feature stores, and reuse of identical fits. The remaining plan dropped from about 1,690 fits to 760 without changing a single decision.</p>
+      </div>
+      <div class="find">
+        <h4>Status</h4>
+        <p>Data audit, task definition, feature caches and the leakage probe are done, and the first fusion gate is training on Ruche. Final results are due mid-December.</p>
+      </div>
+    </div>
+    <p class="repo"><a href="https://github.com/taanakoum/RUL-Model" target="_blank" rel="noopener">github.com/taanakoum/RUL-Model</a></p>
+  </div>
+</section>
+
+<section class="sec sec-alt" id="walker" aria-labelledby="walker-h">
   <div class="wrap">
     <p class="kicker">Final-year capstone, Rafik Hariri University, 2024 to 2025, designed and built end to end</p>
     <h2 id="walker-h">An autonomous walker you steer with your voice</h2>
@@ -346,32 +488,6 @@
   </div>
 </section>
 
-<section class="sec sec-alt" id="rag" aria-labelledby="rag-h">
-  <div class="wrap">
-    <p class="kicker">LLM project</p>
-    <h2 id="rag-h">A retrieval agent that knows when to look</h2>
-    <p class="lead narrow">An LLM agent with memory on top of a hybrid retrieval pipeline, plus an evaluation suite that measures retrieval quality instead of guessing at it. Built with LangChain, LangGraph, Docling, Sentence Transformers, cross-encoders, ChromaDB and MongoDB Atlas.</p>
-    <div class="dg-scroll"><svg class="diagram" viewBox="0 0 1060 330" role="img" aria-label="Agentic RAG pipeline: documents are parsed by Docling, chunked by structure, embedded densely and sparsely and stored; a query with sub-queries runs dual search, weighted reciprocal rank fusion and cross-encoder reranking to build an answer, driven by a LangGraph agent with memory." xmlns="http://www.w3.org/2000/svg"><defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="ah"/></marker></defs><g class="nd" style="--i:0.1"><text class="ch" x="10" y="20">Ingest</text></g><g class="nd" style="--i:0.1"><rect class="bx" x="10" y="30" width="222" height="72" rx="8"/><text class="tt" x="121.0" y="62.0" text-anchor="middle">Docling</text><text class="ts" x="121.0" y="79.0" text-anchor="middle">text, tables, images</text></g><g class="ed" style="--i:1.8"><path class="ar" pathLength="1" d="M232,66 L270,66" marker-end="url(#ah)"/></g><g class="nd" style="--i:1.7"><rect class="bx" x="272" y="30" width="222" height="72" rx="8"/><text class="tt" x="383.0" y="62.0" text-anchor="middle">Structure-aware chunks</text><text class="ts" x="383.0" y="79.0" text-anchor="middle">sentence- and title-aware</text></g><g class="ed" style="--i:3.5"><path class="ar" pathLength="1" d="M494,66 L532,66" marker-end="url(#ah)"/></g><g class="nd" style="--i:3.3"><rect class="bx" x="534" y="30" width="222" height="72" rx="8"/><text class="tt" x="645.0" y="62.0" text-anchor="middle">Two embeddings</text><text class="ts" x="645.0" y="79.0" text-anchor="middle">dense + TF-IDF sparse</text></g><g class="ed" style="--i:5.1"><path class="ar" pathLength="1" d="M756,66 L794,66" marker-end="url(#ah)"/></g><g class="nd" style="--i:5.0"><rect class="bx" x="796" y="30" width="222" height="72" rx="8"/><text class="tt" x="907.0" y="62.0" text-anchor="middle">Vector stores</text><text class="ts" x="907.0" y="79.0" text-anchor="middle">ChromaDB, MongoDB Atlas</text></g><g class="nd" style="--i:0.1"><text class="ch" x="10" y="146">Answer a question</text></g><g class="nd" style="--i:0.1"><rect class="bx bx-t" x="10" y="156" width="180" height="72" rx="8"/><text class="tt" x="100.0" y="188.0" text-anchor="middle">Query</text><text class="ts" x="100.0" y="205.0" text-anchor="middle">+ generated sub-queries</text></g><g class="ed" style="--i:1.6"><path class="ar" pathLength="1" d="M190,192 L218,192" marker-end="url(#ah)"/></g><g class="nd" style="--i:1.4"><rect class="bx bx-t" x="220" y="156" width="180" height="72" rx="8"/><text class="tt" x="310.0" y="188.0" text-anchor="middle">Dual search</text><text class="ts" x="310.0" y="205.0" text-anchor="middle">dense and sparse</text></g><g class="ed" style="--i:2.9"><path class="ar" pathLength="1" d="M400,192 L428,192" marker-end="url(#ah)"/></g><g class="nd" style="--i:2.7"><rect class="bx bx-t" x="430" y="156" width="180" height="72" rx="8"/><text class="tt" x="520.0" y="188.0" text-anchor="middle">Weighted RRF</text><text class="ts" x="520.0" y="205.0" text-anchor="middle">merge the rankings</text></g><g class="ed" style="--i:4.2"><path class="ar" pathLength="1" d="M610,192 L638,192" marker-end="url(#ah)"/></g><g class="nd" style="--i:4.0"><rect class="bx bx-t" x="640" y="156" width="180" height="72" rx="8"/><text class="tt" x="730.0" y="188.0" text-anchor="middle">Cross-encoder</text><text class="ts" x="730.0" y="205.0" text-anchor="middle">rerank the pool</text></g><g class="ed" style="--i:5.5"><path class="ar" pathLength="1" d="M820,192 L848,192" marker-end="url(#ah)"/></g><g class="nd" style="--i:5.3"><rect class="bx bx-o" x="850" y="156" width="180" height="72" rx="8"/><text class="tt" x="940.0" y="188.0" text-anchor="middle">Answer</text><text class="ts" x="940.0" y="205.0" text-anchor="middle">from the top chunks</text></g><g class="ed" style="--i:6.0"><path class="ar" pathLength="1" d="M896,102 L896,130 L320,130 L320,154" marker-end="url(#ah)" fill="none"/></g><g class="nd" style="--i:0.2"><rect class="bx bx-c" x="10" y="262" width="1040" height="56" rx="10"/><text class="tt" x="530" y="286" text-anchor="middle">LangGraph agent with memory</text><text class="ts" x="530" y="304" text-anchor="middle">per question it decides: query long-term memory, call a tool, or ask follow-up queries</text></g><g class="ed" style="--i:1.0"><path class="ar" pathLength="1" d="M100,260 L100,230" marker-end="url(#ah)"/></g></svg></div>
-    <div class="two">
-      <div>
-        <h3>Measured, not assumed</h3>
-        <div class="bars" role="img" aria-label="Recall at 3: sparse 0.80, hybrid 1.00. Mean reciprocal rank: dense 0.900, hybrid 0.767.">
-          <p class="bars-h">Recall@3, share of questions with the source in the top three</p>
-          <div class="bar-r"><span>Sparse</span><div class="trk"><i class="b2" style="width:80%"></i></div><em>0.80</em></div>
-          <div class="bar-r"><span>Hybrid</span><div class="trk"><i style="width:100%"></i></div><em>1.00</em></div>
-          <p class="bars-h">MRR, how high the first relevant chunk ranks</p>
-          <div class="bar-r"><span>Dense</span><div class="trk"><i class="b2" style="width:90%"></i></div><em>0.900</em></div>
-          <div class="bar-r"><span>Hybrid</span><div class="trk"><i style="width:76.7%"></i></div><em>0.767</em></div>
-        </div>
-        <p class="note">Hybrid also gave the best context density (0.533) and the lowest redundancy. A trade-off, not a clean win: dense led on ranking, hybrid on coverage.</p>
-      </div>
-      <div>
-        <h3>What I learned</h3>
-        <blockquote>A reranker can reorder candidates but never recover a document the first stage missed. Reranking quality is bounded by the candidate pool, so first-stage coverage matters most.</blockquote>
-      </div>
-    </div>
-  </div>
-</section>
 
 <section class="sec" id="experience" aria-labelledby="exp-h">
   <div class="wrap">
@@ -382,7 +498,7 @@
       <li><time>May–Jun 2025</time><div><h4>Automotive Diagnostics Intern, Bassoul &amp; Hneine (BMW, Renault), Beirut</h4><p>Read fault codes alongside live ECU sensor data, correlating codes with measured behaviour instead of swapping parts on a code alone.</p></div></li>
       <li><time>Aug–Oct 2025</time><div><h4>Reliability &amp; Controls Engineering Intern, Ciment de Sibline, Lebanon</h4><p>Programmed and validated PLC ladder logic (TIA Portal) for the cooling sequence and gear-rim lubrication of a ball mill whose downtime halts the line. Trended SCADA signals against alarm thresholds to find early warnings of lubrication, cooling and drive faults.</p></div></li>
       <li><time>2026–2027</time><div><h4>MSc Artificial Intelligence, CentraleSupélec, Université Paris-Saclay</h4><p>Machine learning, deep learning, computer vision, NLP and LLMs, reinforcement learning, MLOps. Spring 2027: advanced deep learning, predictive maintenance, AI planning, multi-agent systems.</p></div></li>
-      <li class="now"><time>Oct 2026–now</time><div><h4>Research, multimodal foundation models for predictive maintenance, LGI</h4><p>Building one model that fuses sensors, images and text, adapts from a few labels and says how sure it is.</p></div></li>
+      <li class="now"><time>Oct 2026–now</time><div><h4>Research, multimodal foundation models for predictive maintenance, LGI</h4><p>Building one model that fuses sensors, images and text, adapts from a few labels and says how sure it is; within it, RUL-Fuse forecasts the remaining life of milling tools.</p></div></li>
     </ol>
   </div>
 </section>
@@ -390,28 +506,32 @@
 <section class="sec sec-alt" id="skills" aria-labelledby="skills-h">
   <div class="wrap">
     <h2 id="skills-h">The toolbox, in use</h2>
-    <p class="lead narrow">Where each concept has actually been applied, across the four projects.</p>
+    <p class="lead narrow">Where each concept has actually been applied, across five projects.</p>
     <div class="tbl-wrap">
     <table class="matrix">
-      <thead><tr><th>Concept</th><th>Predictive maintenance</th><th>OmniFuser</th><th>Agentic RAG</th><th>Smart walker</th></tr></thead>
+      <thead><tr><th>Concept</th><th>Predictive maintenance</th><th>OmniFuser</th><th>RUL-Fuse</th><th>Agentic RAG</th><th>Smart walker</th></tr></thead>
       <tbody>
-        <tr class="grp"><th colspan="5">Deep learning</th></tr>
-        <tr><td>Transformers and attention</td><td class="y">●</td><td class="y">●</td><td class="y">●</td><td class="y">●</td></tr>
-        <tr><td>CNNs</td><td></td><td class="y">●</td><td></td><td></td></tr>
-        <tr><td>Graph attention (GAT)</td><td></td><td class="y">●</td><td></td><td></td></tr>
-        <tr><td>Self-supervised and contrastive learning</td><td class="p">○</td><td></td><td></td><td></td></tr>
-        <tr><td>LoRA, PEFT fine-tuning</td><td class="p">○</td><td></td><td></td><td></td></tr>
-        <tr><td>Uncertainty and explainability</td><td class="y">●</td><td></td><td></td><td></td></tr>
-        <tr class="grp"><th colspan="5">AI engineering</th></tr>
-        <tr><td>Agent orchestration (LangGraph)</td><td></td><td></td><td class="y">●</td><td></td></tr>
-        <tr><td>Retrieval and reranking</td><td></td><td></td><td class="y">●</td><td></td></tr>
-        <tr><td>Evaluation and benchmarking</td><td class="y">●</td><td class="y">●</td><td class="y">●</td><td class="y">●</td></tr>
-        <tr><td>CI, testing, experiment tracking</td><td class="y">●</td><td class="y">●</td><td class="y">●</td><td></td></tr>
-        <tr><td>GPU cluster, parallel training</td><td class="y">●</td><td class="y">●</td><td></td><td></td></tr>
-        <tr class="grp"><th colspan="5">Sensing and robotics</th></tr>
-        <tr><td>Sensor fusion, signal processing</td><td class="y">●</td><td class="y">●</td><td></td><td class="y">●</td></tr>
-        <tr><td>Speech and computer vision</td><td></td><td></td><td></td><td class="y">●</td></tr>
-        <tr><td>Real-time robotics (ROS)</td><td></td><td></td><td></td><td class="y">●</td></tr>
+        <tr class="grp"><th colspan="6">Deep learning</th></tr>
+        <tr><td>Transformers and attention</td><td class="y">●</td><td class="y">●</td><td class="y">●</td><td class="y">●</td><td class="y">●</td></tr>
+        <tr><td>CNNs</td><td></td><td class="y">●</td><td class="y">●</td><td></td><td></td></tr>
+        <tr><td>Graph attention (GAT)</td><td></td><td class="y">●</td><td class="y">●</td><td></td><td></td></tr>
+        <tr><td>Self-supervised and contrastive learning</td><td class="p">○</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>LoRA, PEFT fine-tuning</td><td class="p">○</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>Uncertainty and prediction intervals</td><td class="y">●</td><td></td><td class="y">●</td><td></td><td></td></tr>
+        <tr class="grp"><th colspan="6">AI engineering</th></tr>
+        <tr><td>Agent orchestration (LangGraph)</td><td></td><td></td><td></td><td class="y">●</td><td></td></tr>
+        <tr><td>Retrieval, reranking, structured output</td><td></td><td></td><td></td><td class="y">●</td><td></td></tr>
+        <tr><td>Evaluation and leakage-free benchmarking</td><td class="y">●</td><td class="y">●</td><td class="y">●</td><td class="y">●</td><td class="y">●</td></tr>
+        <tr><td>CI, testing, experiment tracking</td><td class="y">●</td><td class="y">●</td><td class="y">●</td><td class="y">●</td><td></td></tr>
+        <tr><td>GPU cluster, parallel training</td><td class="y">●</td><td class="y">●</td><td class="y">●</td><td></td><td></td></tr>
+        <tr class="grp"><th colspan="6">Software and data</th></tr>
+        <tr><td>APIs and databases (FastAPI, PostgreSQL)</td><td></td><td></td><td></td><td class="y">●</td><td></td></tr>
+        <tr><td>Background jobs (Celery, Redis)</td><td></td><td></td><td></td><td class="y">●</td><td></td></tr>
+        <tr><td>Security, multi-user isolation</td><td></td><td></td><td></td><td class="y">●</td><td></td></tr>
+        <tr class="grp"><th colspan="6">Sensing and robotics</th></tr>
+        <tr><td>Sensor fusion, signal processing</td><td class="y">●</td><td class="y">●</td><td class="y">●</td><td></td><td class="y">●</td></tr>
+        <tr><td>Speech and computer vision</td><td></td><td></td><td></td><td></td><td class="y">●</td></tr>
+        <tr><td>Real-time robotics (ROS)</td><td></td><td></td><td></td><td></td><td class="y">●</td></tr>
       </tbody>
     </table>
     </div>
@@ -419,8 +539,9 @@
 
     <dl class="skills">
       <div><dt>Machine learning and AI</dt><dd>Python, PyTorch, scikit-learn, NumPy, Pandas, OpenCV; multimodal fusion, time series, anomaly detection, foundation models (DINOv2, MOMENT, PatchTST), uncertainty quantification, explainable AI</dd></div>
-      <div><dt>LLMs and RAG</dt><dd>LangChain, LangGraph, Docling, Hugging Face, Sentence Transformers, cross-encoder rerankers, ChromaDB, MongoDB Atlas</dd></div>
-      <div><dt>MLOps and HPC</dt><dd>SLURM, NVIDIA A100, Lightning AI, Linux, Git, GitHub Actions, pytest, Ruff, Pyright, experiment tracking</dd></div>
+      <div><dt>LLMs and RAG</dt><dd>LangGraph, LangChain, Docling, Qdrant (dense + BM25 hybrid), cross-encoder rerankers, FastEmbed (ONNX), Hugging Face, Sentence Transformers, structured output with Pydantic</dd></div>
+      <div><dt>Backend and data</dt><dd>FastAPI, Pydantic, SQLAlchemy (async), Alembic, PostgreSQL, Redis, Celery, Streamlit, OpenTelemetry, server-sent events</dd></div>
+      <div><dt>MLOps and HPC</dt><dd>SLURM, NVIDIA A100, Lightning AI, Linux, Git, GitHub Actions, pytest, Playwright, Ruff, Pyright, uv, experiment tracking</dd></div>
       <div><dt>Robotics and industrial</dt><dd>ROS, lidar SLAM, AMCL, sensor fusion, C++, Arduino, Raspberry Pi, MATLAB; PLC (TIA Portal), SCADA, condition monitoring</dd></div>
       <div><dt>Languages</dt><dd>English C2 (IELTS); Arabic native; French A2, working towards B2</dd></div>
     </dl>

@@ -86,10 +86,11 @@
     var end = parseFloat(el.getAttribute('data-count')), dec = +(el.getAttribute('data-dec') || 0);
     var pre = el.getAttribute('data-pre') || '', suf = el.getAttribute('data-suf') || '';
     var t0 = null, dur = 1300;
+    function fmt(v) { return v.toLocaleString('en-US', { minimumFractionDigits: dec, maximumFractionDigits: dec }); }
     function step(t) {
       if (!t0) t0 = t;
       var k = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - k, 3);
-      el.textContent = pre + (end * e).toFixed(dec) + suf;
+      el.textContent = pre + fmt(end * e) + suf;
       if (k < 1) requestAnimationFrame(step);
     }
     requestAnimationFrame(step);
